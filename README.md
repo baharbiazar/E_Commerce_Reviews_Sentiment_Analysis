@@ -3,7 +3,7 @@
 # Sentiment Analysis on Women's Clothing E-Commerce Reviews
 
 The goal of this project is to use NLP and machine learning models to:
-<br>1- Discover the hidden topics in the reviews
+<br>1- Discover the hidden topics in the reviews. (negative reviews)
 <br>2- Predict the rating of clothing items based on the review wording of the customers
 
 ## Data
