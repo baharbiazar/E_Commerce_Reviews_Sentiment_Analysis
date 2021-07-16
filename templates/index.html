@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> Sentiment Analysis </title>
+        
+    </head>
+    <body>
+              Hello<br>
+        <span>Input 1:</span> <input id = 'input_1'></input><br>
+        <span>Input 2:</span> <input id = 'input_2'></input><br>
+
+        <botton type = 'botton' id = 'submit'>Submit</botton>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type=text/javascript>
+
+        let send_data = function() {
+               $.getJSON('/model', {
+                 input_1: $('input[id="input_1"]').val(),
+                 input_2: $('input[id= "input_2"]').val(),
+               }, display_results);
+            }
+
+        $(function() {
+            $('button#submit').click(send_data);
+        });
+
+</script>
+
+    </body>
+</html>
