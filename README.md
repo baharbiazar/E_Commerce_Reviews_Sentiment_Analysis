@@ -33,5 +33,5 @@ Recommended and not recommended items have very close polarity distributions bas
 ## Sentiment Analysis
 I decided to try 4 different models for calssification: Logistic Regression, Random Forest, XGBoost and Gaussian Naive Bayes. I also wanted to experiment with different text vectorizers (CountVectorizer, TF-IDF) and text cleaning approaches. The result is 16 models. In order not to bore you with the process, please checkout my notebook. Here are the results of the best model I made that can successfully classify the negative class with recall score of 85 % and F1 Score of 70%. 
 
-![](images/bestmodel.png)
+<img src="images/bestmodel.png" width="700" />
 
