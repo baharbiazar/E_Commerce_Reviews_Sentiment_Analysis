@@ -22,6 +22,6 @@ On the other hand, there is a pre-trained python library called TextBlob that ha
 ![](images/polarity-rec0.png)
 
 
-
+<img src="images/polarity-rec0.png" width="20" />
 
 
