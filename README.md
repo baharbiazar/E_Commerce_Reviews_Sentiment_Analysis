@@ -2,24 +2,26 @@
 
 # Sentiment Analysis on Women's Clothing E-Commerce Reviews
 
-The goal of this project is to use NLP and machine learning models to:
-<br>1- Discover the hidden topics in the reviews. (negative reviews)
-<br>2- Predict the rating of clothing items based on the review wording of the customers
+## About Sentiment Analysis
+
+Sentiment analysis is detecting whether a text has a positive or negative connotation.
+This can help companies understand what is working and what is not based on the customer feedbacks.
+Positive reviews show what people like.
+Negative reviews identify the issues and can help change directions and improve the product or service.
 
 ## Data
 
-This is a Women’s Clothing E-Commerce dataset revolving around the reviews written by customers from Kaggle. Because this is real commercial data, it has been anonymized, and references to the company in the review text and body have been replaced with “retailer”.
+This is a Women’s Clothing E-Commerce dataset revolving around the reviews written by customers from Kaggle. This dataset includes 23486 rows and 10 feature variables. Each row corresponds to a customer review and there are 1206 total items that are reviewd by customers.
 
-### Content
-This dataset includes 23486 rows and 10 feature variables. Each row corresponds to a customer review, and includes the variables:
+## Goal of the project
+The goal of this project is to use NLP and machine learning models to predict if the purchased clothing items recommended by the customer based on the review they leave on the retailer's website. More specifically predicting the negative comments which are the minority class, will help the sales and marketing team to detect the negative comments across all the platforms, and valuable insight can be extracted from text and help improving the products to meet customer needs and increase the sales.
+On the other hand, there is a pre-trained python library called TextBlob that has built-in sentiment analysis functions and this study tries to get better results than that.
 
-**Clothing ID**: Integer Categorical variable that refers to the specific piece being reviewed.
-<br>**Age**: Positive Integer variable of the reviewers age.
-<br>**Title:** String variable for the title of the review.
-<br>**Review Text:** String variable for the review body.
-<br>**Rating:** Positive Ordinal Integer variable for the product score granted by the customer from 1 Worst, to 5 Best.
-<br>**Recommended IND:** Binary variable stating where the customer recommends the product where 1 is recommended, 0 is not recommended.
-<br>**Positive Feedback Count:** Positive Integer documenting the number of other customers who found this review positive.
-<br>**Division Name:** Categorical name of the product high level division.
-<br>**Department Name**: Categorical name of the product department name.
-<br>**Class Name**: Categorical name of the product class name.
+## EDA
+
+![](images/polarity-rec0.png)
+
+
+
+
+
