@@ -2,6 +2,8 @@
 
 # Sentiment Analysis on Women's Clothing E-Commerce Reviews
 
+{:toc} 
+
 ## About Sentiment Analysis
 
 Sentiment analysis is detecting whether a text has a positive or negative connotation.
