@@ -3,7 +3,7 @@
 # Sentiment Analysis on Women's Clothing E-Commerce Reviews
 
 
-[nfdmn](## About Sentiment Analysis)
+## About Sentiment Analysis
 
 Sentiment analysis is detecting whether a text has a positive or negative connotation.
 This can help companies understand what is working and what is not based on the customer feedbacks.
