@@ -2,7 +2,8 @@
 
 # Sentiment Analysis on Women's Clothing E-Commerce Reviews
 
-{:toc} 
+* TOC
+{:toc}
 
 ## About Sentiment Analysis
 
