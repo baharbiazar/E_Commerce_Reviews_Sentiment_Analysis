@@ -31,7 +31,7 @@ Recommended and not recommended items have very close polarity distributions bas
 
 
 ## Sentiment Analysis
-I decided to try 4 different models for calssification: Logistic Regression, Random Forest, XGBoost and Gaussian Naive Bayes. I also wanted to experiment with different text vectorizers (CountVectorizer, TF-IDF) and text cleaning approaches. I once made custom stopwords making sure the negative words such as 'No' and 'Not' are not remove from the corpus, along with other NLP methods such as removing punctuation, including N-grams and Stemming and Lemmatization.
+After deviding the data into train and test sets, I decided to try 4 different models for calssification: Logistic Regression, Random Forest, XGBoost and Gaussian Naive Bayes. I also wanted to experiment with different text vectorizers (CountVectorizer, TF-IDF) and text cleaning approaches. I once made custom stopwords making sure the negative words such as 'No' and 'Not' are not remove from the corpus, along with other NLP methods such as removing punctuation, including N-grams and Stemming and Lemmatization.
 The result is 16 models. In order not to bore you with the process, please checkout my notebook. tables below show the differences in the results.
 
 <img src="images/comp1.png" width="800" />
@@ -57,5 +57,10 @@ Plots below show the most important words for positive and negative sentiment cl
 <img src="images/neg-not-processed.png" width="700" />
 
 
+## Best model VS. TextBlob
+
+```This dress looked very cute on the website and that is why I ordered it. But I have to return it. It is very boxy.```
+
+This unseen text was examined with TextBlob and got a polarity of 0.45 which is in the positive side, whereas the best model here gives it a 97% probability to be in the negative class. That's the correct answer! 
 
 
