@@ -69,7 +69,7 @@ This unseen text was examined with TextBlob and got a polarity of 0.45 which is 
 
 ## Next Steps
 1- Try different text datasets<br>
-2- Tune other hyper parameters to see if the f1 scores improves or not<br>
+2- Tune other hyper parameters to see if the F1 score improves or not<br>
 3- Try a deep learning model <br>
 4- Build an interactive sentiment analyzer which allows user-inputted reviews and give predictions on its sentiment where the users can help the model learn when   it makes a wrong prediction
 
