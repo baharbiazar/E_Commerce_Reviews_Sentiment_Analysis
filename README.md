@@ -34,8 +34,8 @@ Recommended and not recommended items have very close polarity distributions bas
 I decided to try 4 different models for calssification: Logistic Regression, Random Forest, XGBoost and Gaussian Naive Bayes. I also wanted to experiment with different text vectorizers (CountVectorizer, TF-IDF) and text cleaning approaches. I once made custom stopwords making sure the negative words such as 'No' and 'Not' are not remove from the corpus, along with other NLP methods such as removing punctuation, including N-grams and Stemming and Lemmatization.
 The result is 16 models. In order not to bore you with the process, please checkout my notebook. tables below show the differences in the results.
 
-<img src="images/comp1.png" width="700" />
-<img src="images/comp2.png" width="700" />
+<img src="images/comp1.png" width="800" />
+<img src="images/comp2.png" width="800" />
 
 ## Best Model
 
