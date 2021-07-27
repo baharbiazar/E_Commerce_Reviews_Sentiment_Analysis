@@ -64,12 +64,12 @@ Plots below show the most important words for positive and negative sentiment cl
 This unseen text was examined with TextBlob and got a polarity of 0.45 which is in the positive side, whereas the best model here gives it a 97% probability to be in the negative class. That's the correct answer! 
 
 ## Takeaways 
-1- Always start with the simplest method!!
+1- Always start with the simplest method!!<br>
 2- Noise reduction techniques are not helpful with sentiment analysis of this dataset
 
 ## Next Steps
-1- Try different text datasets
-2- Tune other hyper parameters to see if the f1 scores improves or not
-3- Try a deep learning model 
+1- Try different text datasets<br>
+2- Tune other hyper parameters to see if the f1 scores improves or not<br>
+3- Try a deep learning model <br>
 4- Build an interactive sentiment analyzer which allows user-inputted reviews and give predictions on its sentiment where the users can help the model learn when   it makes a wrong prediction
 
