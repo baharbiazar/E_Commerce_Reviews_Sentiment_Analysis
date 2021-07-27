@@ -35,6 +35,7 @@ I decided to try 4 different models for calssification: Logistic Regression, Ran
 The result is 16 models. In order not to bore you with the process, please checkout my notebook. Here are the results of the best model I made that can successfully classify the negative class with recall score of 85 % and F1 Score of 70%. 
 
 <img src="images/bestmodel.png" width="700" />
+<img src="images/roc.png" width="700" />
 
 
 ## Other Findings
