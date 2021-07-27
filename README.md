@@ -31,7 +31,23 @@ Recommended and not recommended items have very close polarity distributions bas
 
 
 ## Sentiment Analysis
-I decided to try 4 different models for calssification: Logistic Regression, Random Forest, XGBoost and Gaussian Naive Bayes. I also wanted to experiment with different text vectorizers (CountVectorizer, TF-IDF) and text cleaning approaches. The result is 16 models. In order not to bore you with the process, please checkout my notebook. Here are the results of the best model I made that can successfully classify the negative class with recall score of 85 % and F1 Score of 70%. 
+I decided to try 4 different models for calssification: Logistic Regression, Random Forest, XGBoost and Gaussian Naive Bayes. I also wanted to experiment with different text vectorizers (CountVectorizer, TF-IDF) and text cleaning approaches. I once made custom stopwords making sure the negative words such as 'No' and 'Not' are not remove from the corpus, along with other NLP methods such as removing punctuation, including N-grams and Stemming and Lemmatization.
+The result is 16 models. In order not to bore you with the process, please checkout my notebook. Here are the results of the best model I made that can successfully classify the negative class with recall score of 85 % and F1 Score of 70%. 
 
 <img src="images/bestmodel.png" width="700" />
+
+
+## Other Findings
+
+Interstingly, I got better results without using NLP and feeding the raw text to the TF-IDF vectorizer!! I also found TF-IDF and CountVectorizer have very simillar results but TF-IDF is just a little bit better with the results.
+
+Plots below show the most important words for positive and negative sentiment classification. The words are very simillar and I didn't need to customize the stop words! I have to highlight that the NLP comes in handy for topic clustering. Specially when including the negative words and n-grams so human beings can interprete the topics and clusters. This is actually another experiment I did with this text data and I will include it on GitHub separately.
+
+<img src="images/pos-processed.png" width="700" />
+<img src="images/neg-processed.png" width="700" />
+<img src="images/pos-not-processed.png" width="700" />
+<img src="images/neg-not-processed.png" width="700" />
+
+
+
 
