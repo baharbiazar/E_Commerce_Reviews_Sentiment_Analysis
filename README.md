@@ -58,7 +58,7 @@ Plots below show the most important words for positive and negative sentiment cl
 <img src="images/neg-not-processed.png" width="700" />
 
 
-## Best model VS. TextBlob
+## Best Model vs. TextBlob
 
 ```This dress looked very cute on the website and that is why I ordered it. But I have to return it. It is very boxy.```
 
